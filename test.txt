@@ -1,1 +1,41 @@
-你好！
+﻿tl@tl-PC MINGW32 /d/PM (master)
+$ cd ~/.ssh
+
+tl@tl-PC MINGW32 ~/.ssh
+$ rm cd ~/.ssh
+rm: cannot remove 'cd': No such file or directory
+rm: cannot remove '/c/Users/tl/.ssh': Is a directory
+
+tl@tl-PC MINGW32 ~/.ssh
+$ rm  ~/.ssh
+rm: cannot remove '/c/Users/tl/.ssh': Is a directory
+
+tl@tl-PC MINGW32 ~/.ssh
+$ rm -r  ~/.ssh
+
+tl@tl-PC MINGW32 ~/.ssh
+$ ssh-keygen -t rsa -C "tonglu0710@163.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/tl/.ssh/id_rsa):
+Created directory '/c/Users/tl/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/tl/.ssh/id_rsa.
+Your public key has been saved in /c/Users/tl/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:kF5jayJ1gMuAzS6qEsy32FhupZV1/J59snisTjFJ5DM tonglu0710@163.com
+The key's randomart image is:
++---[RSA 2048]----+
+| +   ..    .     |
+|. + .  o  o      |
+| . o .+ *  E     |
+|. . oo * =. +    |
+|+.  . = S .+     |
+|oo o = o   .o    |
+|..B =     ..+    |
+|oo *      .o.= . |
+|. .       .+o.+  |
++----[SHA256]-----+
+
+tl@tl-PC MINGW32 ~/.ssh
+$ cat ~/.ssh/id_rsa.pub
